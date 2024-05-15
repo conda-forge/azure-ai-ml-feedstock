@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/azure-ai-ml-{{ version }}.tar.gz
-  sha256: 9d8787a4b562b706556eedc1594b3811a96e47c3ff7ad19afeaa1e4bc666c2b5
+  sha256: 5799f47366edc40f2ffac8ed5fdff3899b453f3a20dcbc2f7634e976e7cbafda
 
 build:
   noarch: python
