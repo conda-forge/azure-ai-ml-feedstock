@@ -38,7 +38,7 @@ requirements:
     - isodate
     - azure-common >=1.1
     - typing_extensions
-    - opencensus-ext-azure
+    - azure-monitor-opentelemetry
     # azure-ai-ml 1.16.0 requires opencensus-ext-logging, which is not installed.
     #- opencensus-ext-logging
 
