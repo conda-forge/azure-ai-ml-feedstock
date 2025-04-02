@@ -1,5 +1,5 @@
 {% set name = "azure-ai-ml" %}
-{% set version = "1.23.1" %}
+{% set version = "1.26.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 31622cd62fd308acc6508e830bafdb32a6d53f0233d8d67822208d1227b06fa6
+  sha256: 07445f7336fecbba207a216120d68f2499c25d96f0b1b3b64bf14ac5d2197fda
 
 build:
   noarch: python
