@@ -9,7 +9,11 @@ Package license: Apache-2.0
 
 Summary: Microsoft Azure Machine Learning Client Library for Python
 
-Development: https://github.com/Azure/azure-sdk-python
+Development: https://github.com/Azure/azure-sdk-for-python
+
+Documentation: https://github.com/Azure/azure-sdk-for-python/blob/main/README.md
+
+Microsoft Azure Azure Core OpenTelemetry plugin Library for Python.
 
 Current build status
 ====================
