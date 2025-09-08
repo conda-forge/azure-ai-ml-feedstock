@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: azure-ai-ml
-  version: "1.28.1"
+  version: "1.29.0"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/azure_ai_ml-${{ version }}.tar.gz
-  sha256: aa44638d033e64393c3952f59a73822f1d3f893057bd0f1957f811d7e6a58036
+  sha256: 052c6bc14a986b3ac3610ca59d24a0393fc09635dfb57e6506c3159c10039144
 
 build:
   number: 0
