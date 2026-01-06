@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-ai-ml-fee
 
 Home: https://github.com/Azure/azure-sdk-for-python
 
-Package license: Apache-2.0
+Package license: MIT
 
 Summary: Microsoft Azure Machine Learning Client Library for Python
 
