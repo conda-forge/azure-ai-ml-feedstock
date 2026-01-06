@@ -58,7 +58,7 @@ about:
        Microsoft Azure Azure Core OpenTelemetry plugin Library for Python.
   repository: https://github.com/Azure/azure-sdk-for-python
   documentation: https://github.com/Azure/azure-sdk-for-python/blob/main/README.md
-  license: Apache-2.0
+  license: MIT
   license_file:
     - NOTICE.txt
     - LICENSE
