@@ -2,16 +2,15 @@
 schema_version: 1
 
 context:
-  version: "1.34.0"
+  version: "1.35.0"
 
 package:
   name: azure-ai-ml
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/a/azure-ai-ml/azure_ai_ml-${{ version 
-    }}.tar.gz
-  sha256: 7b11e66a494d328022847e9b9367db34a744ffba23a2198c7b587028b296572c
+  url: https://pypi.org/packages/source/a/azure-ai-ml/azure_ai_ml-${{ version }}.tar.gz
+  sha256: 280dd4cbcfe8a72d210731f5a3a3b34d70cedcb85b6111b42f7b1c9d6758f4e1
 
 build:
   number: 0
@@ -60,8 +59,7 @@ about:
   summary: Microsoft Azure Machine Learning Client Library for Python
   description: "Microsoft Azure Azure Core OpenTelemetry plugin Library for Python.\n"
   repository: https://github.com/Azure/azure-sdk-for-python
-  documentation: 
-    https://github.com/Azure/azure-sdk-for-python/blob/main/README.md
+  documentation: https://github.com/Azure/azure-sdk-for-python/blob/main/README.md
 extra:
   recipe-maintainers:
     - rxm7706
