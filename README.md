@@ -46,31 +46,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `azure-ai-ml` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install azure-ai-ml
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install azure-ai-ml
 ```
 
-It is possible to list all of the versions of `azure-ai-ml` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add azure-ai-ml
+# for installing globally
+pixi global install azure-ai-ml
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `azure-ai-ml` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search azure-ai-ml --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search azure-ai-ml --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search azure-ai-ml --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -82,6 +124,8 @@ mamba repoquery whoneeds azure-ai-ml --channel conda-forge
 # List dependencies of `azure-ai-ml`:
 mamba repoquery depends azure-ai-ml --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
